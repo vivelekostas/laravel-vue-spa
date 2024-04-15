@@ -15,6 +15,7 @@
 - `$ cp .env.example .env`
 - `$ sail artisan key:generate` 
 - `$ sail artisan migrate` 
+- `$ sail npm install` 
 - `$ sail npm run dev` 
 
 
