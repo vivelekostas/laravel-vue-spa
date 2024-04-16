@@ -27,7 +27,8 @@ export default {
     },
 
     mounted() {
-        this.getPerson()
+        this.$store.dispatch('getPerson', this.$route.params.id)    // вызов метода из vueх модуля.
+        // this.getPerson()                                         // вызов метода из vue компонента.
     },
 
     methods: {
